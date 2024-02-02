@@ -1,0 +1,17 @@
+.container {
+   width: 100%;
+   h2 {
+      font-weight: 500;
+   }
+   .prdGrid {
+      width: 200vw;
+      padding: 10px 50px;
+
+      .g {
+         padding: 10px 20px;
+         display: flex;
+         overflow-x: hidden;
+         gap: 20px;
+      }
+   }
+}

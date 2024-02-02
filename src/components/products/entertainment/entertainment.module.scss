@@ -1,0 +1,28 @@
+.container {
+   width: 500px;
+   height: 450px;
+   padding: 30px;
+   box-shadow: 0px 0px 3px 0px #ccc;
+   border-radius: 20px;
+   position: relative;
+   span {
+      font-weight: 600;
+      color: gray;
+   }
+   .description {
+      width: 180px;
+      inset: 1;
+   }
+
+   &:nth-child(2) {
+      span {
+         color: red;
+      }
+      h2 {
+         color: #fff;
+      }
+      .description {
+         color: #fff;
+      }
+   }
+}
